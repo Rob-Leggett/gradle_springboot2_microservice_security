@@ -1,0 +1,14 @@
+springdoc:
+  swagger-ui:
+    deep-linking: true
+    display-operation-id: false
+    default-models-expand-depth: 1
+    default-model-expand-depth: 1
+    default-model-rendering: example
+    display-request-duration: false
+    doc-expansion: none
+    filter: false
+    operations-sorter: alpha
+    show-extensions: false
+    tags-sorter: alpha
+    validator-url: none

@@ -1,17 +1,7 @@
 package au.com.example.orders.model;
 
-import io.swagger.annotations.ApiModel;
+import io.swagger.v3.oas.annotations.media.Schema;
 
-@ApiModel
-public class Order {
-
-    private final long id;
-
-    public Order(long id) {
-        this.id = id;
-    }
-
-    public long getId() {
-        return id;
-    }
+@Schema(description = "An order")
+public record Order(long id) {
 }
